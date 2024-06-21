@@ -1,0 +1,39 @@
+.divider {
+  font-size: 2rem;
+}
+
+.gutter-row {
+  .movie-item {
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    background-size: cover; /* Bao phủ toàn bộ phần tử */
+    background-position: center;
+    border-radius: 3px;
+  }
+
+  .movie-tag {
+    background-color: #00000099;
+    color: #fff;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    z-index: 99;
+    padding: 2px 5px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+  }
+
+  .move-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+      color: rgb(88, 88, 190);
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

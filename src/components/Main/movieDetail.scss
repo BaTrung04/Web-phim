@@ -1,0 +1,59 @@
+.movie-detail {
+  background-color: #999;
+  padding: 10px;
+  border-radius: 10px;
+  .right-movie-detail {
+    .movie-item-btn {
+      margin-top: 7px;
+      font-size: 1.2rem;
+      padding: 20px;
+    }
+  }
+  .left-movie-detail {
+    .movie-detail-name {
+      font-size: 3rem;
+      color: #fff;
+    }
+    .movie-detail-content {
+      margin-top: 10px;
+      background-color: #6c6565;
+      color: #ccc;
+      padding: 10px;
+      border-radius: 10px;
+      .movie-detail-content-h3 {
+        font-size: 1.8rem;
+      }
+      .movie-detail-content-span {
+        font-size: 1.2rem;
+      }
+      .movie-detail-lang {
+        margin-top: 10px;
+        background-color: #b5b191;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.Movie-episode-list {
+  margin-top: 20px;
+  background-color: #999;
+  padding: 10px;
+  border-radius: 10px;
+  .Movie-episode-title {
+    font-size: 1.6rem;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .Movie-episode-practice {
+    padding: 10px;
+    .Movie-episode-btn {
+      padding: 20px;
+      width: 100px;
+    }
+  }
+}
